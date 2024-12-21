@@ -3,13 +3,13 @@ import Link from "next/link";
 import Socials from "../components/Socials";
 const Header = () => {
   return (
-    <header className="absolute w-full z-10 flex items-center px-[65px] xl:px-0 xl:h-[90px] xl:ml-[-80px]">
+    <header className="absolute w-full z-10 flex items-center px-16 xl:px-0 xl:ml-[-50px] xl:h-[80px]">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           <Link href={"/"}>
             <Image
               src={"/logo.svg"}
-              width={600}
+              width={500}
               height={18}
               alt=""
               property={true}
